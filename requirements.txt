@@ -2,4 +2,3 @@ matplotlib
 seaborn
 rdkit
 plotly
-libxrender
