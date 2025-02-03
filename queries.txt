@@ -1,6 +1,8 @@
 SELECT 
     a.CHEMBL_ID AS Article_CHEMBL_ID,
     cr.COMPOUND_NAME AS Compound_Name,
+    cp.MW_FREEBASE AS Molecular_Weight,
+    cp. FULL_MOLFORMULA,
     cs.CANONICAL_SMILES AS SMILES,
     ac.STANDARD_TYPE AS Standard_Type,
     ac.STANDARD_RELATION AS Standard_Relation,
